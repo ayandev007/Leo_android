@@ -1,6 +1,4 @@
-package com.version.sz_app1;
-
-
+﻿package com.version.sz_app1;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URLEncoder;
