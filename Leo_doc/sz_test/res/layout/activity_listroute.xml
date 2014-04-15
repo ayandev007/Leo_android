@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".BuslistnActivity" >
+
+      <ListView
+          android:id="@android:id/list"
+          android:layout_width="fill_parent"
+          android:layout_height="501dp"
+          android:layout_alignParentLeft="true"
+          android:cacheColorHint="@android:color/transparent"
+          android:layout_weight="0.64"
+          android:drawSelectorOnTop="false"
+          android:layout_below="@+id/buttonrouteflash"
+          android:scrollbars="vertical" 
+          android:background="@drawable/bg1">
+
+      </ListView>
+
+      <ProgressBar
+          android:id="@+id/progressBar2"
+              android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true" />
+
+      <Button
+          android:id="@+id/buttonrouteflash"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/progressBar2"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:text="Button" />
+
+      <TextView
+          android:id="@+id/textViewroute"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/buttonrouteflash"
+          android:layout_alignParentTop="true"
+          android:layout_toLeftOf="@+id/buttonrouteflash"
+          android:text="Large Text"
+          android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+</RelativeLayout>
